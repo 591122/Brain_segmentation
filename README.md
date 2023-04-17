@@ -3,7 +3,7 @@ Brain_Segmentation
 
 Segmentation of the brain from mri images
 
-Project Organization
+DAT255 - Deeplearning HVL 2023
 ------------
 
     ├── LICENSE

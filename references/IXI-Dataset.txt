@@ -1,0 +1,12 @@
+https://brain-development.org/ixi-dataset/
+
+IXI – Information eXtraction from Images (EPSRC GR/S21533/02)
+The images in NIFTI format can be downloaded from here:
+
+T1 images (all images)
+T2 images (all images)
+PD images (all images)
+MRA images (all images)
+DTI images (all images, bvecs.txt, bvals.txt)
+Demographic information (spreadsheet)
+

@@ -2,6 +2,16 @@
 -e .
 
 # external requirements
+numpy
+pandas
+matplotlib
+pickle
+nibabel
+sklearn
+fastMONAI
+PIL
+cv2
+
 click
 Sphinx
 coverage

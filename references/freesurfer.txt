@@ -1,0 +1,6 @@
+https://freesurfer.net 
+
+"An open source neuroimaging toolkit for processing, analyzing, and visualizing human brain MR images"
+
+Freesurfer ble brukt av foreleser til å lage maskene.
+Freesurfer er et program som tar inn nii filer og kan så lage masker for filene.
