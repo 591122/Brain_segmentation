@@ -54,4 +54,5 @@ DAT255 - Deeplearning HVL 2023
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+[DAT255 - fagprosjekt.pdf](https://github.com/591122/Brain_segmentation/files/11296998/DAT255.-.fagprosjekt.pdf)
