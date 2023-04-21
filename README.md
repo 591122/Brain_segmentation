@@ -54,5 +54,10 @@ DAT255 - Deeplearning HVL 2023
 
 --------
 
+![DAT255 - fagprosjekt](https://user-images.githubusercontent.com/69795381/233672228-b6370eb0-ffe2-4007-975d-9f2a5910a972.jpg)
+![DAT255 - fagprosjekt-bilder](https://user-images.githubusercontent.com/69795381/233672238-15221cd1-ca78-4bd8-953c-e42c1a8a73f8.jpg)
+![DAT255 - fagprosjekt2](https://user-images.githubusercontent.com/69795381/233672241-8b854b45-391f-48ce-a125-66f527a58166.jpg)
+![DAT255 - fagprosjekt3](https://user-images.githubusercontent.com/69795381/233672247-65a616ba-42e9-437a-8bc7-a162962233cc.jpg)
+![DAT255 - fagprosjekt4](https://user-images.githubusercontent.com/69795381/233672254-66df2691-7ac2-4bce-bb6c-1fbbfd7789c6.jpg)
+![DAT255 - fagprosjekt5](https://user-images.githubusercontent.com/69795381/233672257-2a3e54de-399e-445e-b445-3d76c8af9d5b.jpg)
 
-[DAT255 - fagprosjekt.pdf](https://github.com/591122/Brain_segmentation/files/11296998/DAT255.-.fagprosjekt.pdf)
