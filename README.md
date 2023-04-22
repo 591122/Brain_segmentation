@@ -92,10 +92,10 @@ Hva er hjernesegmentering?
 Utfordringer:
 -	Når det kommer til helse er det veldig viktig at vi ikke bare gjetter, men kan med rimelig sikkerhet si at vi er korrekte.
 -	Kan vi utføre oppgaven like bra eller bedre enn et menneske?
--	Kan vi vite at treningsdataen er 100% riktig? Det er veldig vanskelig for meg å sjekke over datasettet og si om dataen re segmentert riktig.
+-	Kan vi vite at treningsdataen er 100% riktig? Det er veldig vanskelig for meg å sjekke over datasettet og si om dataen er segmentert riktig.
 
 Data: (finn alle kilder data du kan komme over)
-Først å fremst må jeg si at jeg ikke kan slev segmentere treningsdataen ettersom jeg er ikke utdannet lege. Så treningsdataen trenger jeg å finne ferdig segmentert.
+Først å fremst må jeg si at jeg ikke kan selv segmentere treningsdataen ettersom jeg er ikke utdannet lege. Så treningsdataen trenger jeg å finne ferdig segmentert.
 
 -	Datasettet kommer fra IXI som er en samling med nesten 600 MR bilder fra normal, sunne individer.
 
@@ -150,7 +150,7 @@ Struktur i repo:
 Jeg gjør et forsøk på laste ned freesurfer for å teste deres program for klassifisering av hjernens strukturer. (Gamle versjoner av Mac er støttet, ukjent om jeg kan få det til i det hele tatt).
 
 
-For å teste skal jeg ta T1 bildene og klassifisere dem med freesurfer, så skal jeg kun spare på ett bilde i midten av hjerne.
+For å teste skal jeg ta T1 bildene og klassifisere dem med freesurfer, så skal jeg kun spare på ett bilde i midten av hjernen.
 
 For å finne bilde i midten skal jeg hente ut den midterste snittet bildene og label bildene. Dermed kan jeg kjøre programmet.
 
@@ -171,10 +171,24 @@ Mot slutten av prosjektet innså jeg at jeg måtte korte ned på oppgaven etters
 
 MR skanner består i vårt tilfelle av mange forskjellige bilder som blir tatt i ulik dybde på pasienten. I NII er filer i NIFTI-1 formatet som 
 
-Etter flere dager med forsøk fikk jeg endelig til å kjøre notebooken på GPU framfor CPU. Det reduserte tiden den trengte for å kjøre ned fra 1.5 time til bare 5 min. Som er 18 ganger raskere enn å kjøre den på CPU.
+Etter flere dager med forsøk fikk jeg endelig til å kjøre notebooken på GPU framfor CPU. Det reduserte tiden den trengte for å kjøre ned fra 1.5 time til bare 5 min, som er 18 ganger raskere enn å kjøre den på CPU.
 
-Modellen klarer å gjøre segmentere bildene relativt bra med tanke på hvor mange labels modellen har.
+Resultat:
 
-Jeg prøvde å lage en applikasjon med huggingface, men fikk det ikke helt til pga problemer med å laste inn modellen.
+![target-precision](https://user-images.githubusercontent.com/69795381/233808199-03fbfb6d-a0c8-4f3f-b30f-e0be9c27dab5.PNG)
+
+Ut ifra dette bilde kan vi se at modellen klarte å segmentere hjernen ganske bra. Med bruk av show_results metoden fikk jeg disse fargene som ikke klarer å vise frem alt i bildene.
+Desverre fikk jeg ikke til å vise bilde på en bedre måte med colormapping. Jeg fant ut at med cmap="flag" klarte man å få frem flest ulike layers i maskene.
+
+Bildet under er en maske med cmap="flag", her kan vi se at flere elementer kommer frem i hjernen.
+![ok](https://user-images.githubusercontent.com/69795381/233808359-8a13492e-6ebc-4f13-9e09-b32ec745909f.PNG)
+
+
+Modellen klarer å segmentere bildene relativt bra med tanke på hvor mange labels modellen har.
+
+
+Jeg prøvde å lage en applikasjon med huggingface, men fikk det ikke helt til pga. problemer med å laste inn modellen.
 https://huggingface.co/spaces/Andreas-w/Brain-segmentation 
+
+Til slutt vil jeg si meg ikke helt fornøyd med hvor langt jeg kom med prosjektet, men det gikk veldig mye tid til research og forståelse. Jeg tenkte ikke at den oppgaven trengte så mye forståelse som den gjorde. 
 
