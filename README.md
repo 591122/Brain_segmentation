@@ -181,6 +181,7 @@ Ut ifra dette bilde kan vi se at modellen klarte å segmentere hjernen ganske br
 Desverre fikk jeg ikke til å vise bilde på en bedre måte med colormapping. Jeg fant ut at med cmap="flag" klarte man å få frem flest ulike layers i maskene.
 
 Bildet under er en maske med cmap="flag", her kan vi se at flere elementer kommer frem i hjernen.
+
 ![ok](https://user-images.githubusercontent.com/69795381/233808359-8a13492e-6ebc-4f13-9e09-b32ec745909f.PNG)
 
 
