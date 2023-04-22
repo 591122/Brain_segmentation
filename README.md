@@ -191,5 +191,4 @@ Modellen klarer å segmentere bildene relativt bra med tanke på hvor mange labe
 Jeg prøvde å lage en applikasjon med huggingface, men fikk det ikke helt til pga. problemer med å laste inn modellen.
 https://huggingface.co/spaces/Andreas-w/Brain-segmentation 
 
-Til slutt vil jeg si meg ikke helt fornøyd med hvor langt jeg kom med prosjektet, men det gikk veldig mye tid til research og forståelse. Jeg tenkte ikke at den oppgaven trengte så mye forståelse som den gjorde. 
-
+Til slutt vil jeg si meg noe mindre fornøyd med hvor langt jeg kom med prosjektet. Det gikk veldig mye tid til research og forståelse, og jeg tenkte ikke at den oppgaven trengte så mye forståelse som den endte opp med å gjøre. 
