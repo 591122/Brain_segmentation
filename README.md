@@ -174,3 +174,7 @@ MR skanner består i vårt tilfelle av mange forskjellige bilder som blir tatt i
 Etter flere dager med forsøk fikk jeg endelig til å kjøre notebooken på GPU framfor CPU. Det reduserte tiden den trengte for å kjøre ned fra 1.5 time til bare 5 min. Som er 18 ganger raskere enn å kjøre den på CPU.
 
 Modellen klarer å gjøre segmentere bildene relativt bra med tanke på hvor mange labels modellen har.
+
+Jeg prøvde å lage en applikasjon med huggingface, men fikk det ikke helt til pga problemer med å laste inn modellen.
+https://huggingface.co/spaces/Andreas-w/Brain-segmentation 
+
